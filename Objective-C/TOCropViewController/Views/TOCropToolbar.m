@@ -70,7 +70,7 @@
     
     _doneTextButton = [UIButton buttonWithType:UIButtonTypeSystem];
     [_doneTextButton setTitle: _doneTextButtonTitle ?
-        _doneTextButtonTitle : NSLocalizedStringFromTableInBundle(@"Done",
+        _doneTextButtonTitle : NSLocalizedStringFromTableInBundle(@"确定",
 																  @"TOCropViewControllerLocalizable",
 																  resourceBundle,
                                                                   nil)
@@ -97,7 +97,7 @@
     _cancelTextButton = [UIButton buttonWithType:UIButtonTypeSystem];
     
     [_cancelTextButton setTitle: _cancelTextButtonTitle ?
-        _cancelTextButtonTitle : NSLocalizedStringFromTableInBundle(@"Cancel",
+        _cancelTextButtonTitle : NSLocalizedStringFromTableInBundle(@"取消",
 																	@"TOCropViewControllerLocalizable",
 																	resourceBundle,
                                                                     nil)
